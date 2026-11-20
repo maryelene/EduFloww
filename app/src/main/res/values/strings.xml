@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EduFlow Notes</string>
+    <string name="nav_notes">Notes</string>
+    <string name="nav_reviewer">Reviewer</string>
+    <string name="nav_subjects">Subjects</string>
+    <string name="home_banner_title">Snap, Highlight &amp; Ace It</string>
+    <string name="home_banner_subtitle">Turn printed pages &amp; tidy handwriting into pink-powered study reviewers.</string>
+    <string name="action_scan_page">Scan Page</string>
+    <string name="action_pick_photo">Pick Photo</string>
+    <string name="action_blank_note">New Note</string>
+    <string name="action_extract_ai">Extract Text &amp; Definitions</string>
+    <string name="error_camera_permission">Camera permission is needed to snap a photo of your notes. You can still pick a photo from your gallery!</string>
+</resources>

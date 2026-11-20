@@ -1,0 +1,29 @@
+package com.example
+
+import android.content.Context
+import androidx.test.core.app.ApplicationProvider
+import com.example.ui.components.suggestTermAndDefinition
+import org.junit.Assert.assertEquals
+import org.junit.Test
+import org.junit.runner.RunWith
+import org.robolectric.RobolectricTestRunner
+import org.robolectric.annotation.Config
+
+@RunWith(RobolectricTestRunner::class)
+@Config(sdk = [36])
+class ExampleRobolectricTest {
+
+    @Test
+    fun `read string from context`() {
+        val context = ApplicationProvider.getApplicationContext<Context>()
+        val appName = context.getString(R.string.app_name)
+        assertEquals("EduFlow Notes", appName)
+    }
+
+    @Test
+    fun `suggestTermAndDefinition splits colon definitions cleanly`() {
+        val (term, def) = suggestTermAndDefinition("Photosynthesis: The process plants use to convert light into energy.")
+        assertEquals("Photosynthesis", term)
+        assertEquals("The process plants use to convert light into energy.", def)
+    }
+}
