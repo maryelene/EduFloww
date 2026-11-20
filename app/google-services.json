@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1018157323386",
+    "project_id": "edu-flow-6779a",
+    "storage_bucket": "edu-flow-6779a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018157323386:android:0809c2cdba8bc94c0a57c3",
+        "android_client_info": {
+          "package_name": "com.aistudio.eduflownotes.xkqmpz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDwEH0T_XyXKmGdubzmhgrFbOUMnnBL94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
